@@ -63,6 +63,7 @@
 		TweenMax.to(banners, 0.8, { right: totalOffset });
 	}
 
+
 	shields.forEach(shield => shield.addEventListener('click', showLightbox));
 	shields.forEach(shield => shield.addEventListener('click', animateBanner));
 
